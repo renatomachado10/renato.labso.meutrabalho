@@ -1,0 +1,56 @@
+Aluno: Renato Machado Neves  Matricula:0050012586
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2019   Turno: Noite            Trabalho (valo 1,5 pontos)
+--------------------------------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
+
+
+0 - Após o comando clone, vá para a pasta seunome.labso.meutrabalho (esta será a pasta principal da prova)
+
+1. Crie 3 pastas com nomes de pasta1, pasta2 e pasta3
+
+- mkdir pasta1
+- mkdir pasta2
+- mkdir pasta3
+
+2. Liste todo o conteúdo da pasta home e direcione a saída para um arquivo chamado access.log
+
+- ls > acess.log
+
+3. Qual o comando para mostrar as últimas 4 linhas do arquivo access.log?
+
+- tail -4 acess.log
+
+4. Usando apenas uma linha de comando, crie 3 arquivos em branco que comecem com seu nome e termina com 
+uma sequencia 1, 2 e 3. Ex.: alex1.txt, alex2.txt, alex3.txt. Que comando você utilizou?
+
+- touch renato1.txt renato2.txt renato3.txt
+
+5. Copie os 3 arquivos criados anteriormente para a pasta2
+
+- cp renato1.txt ~/renato.labso.meutrabalho/pasta2/
+- cp renato2.txt ~/renato.labso.meutrabalho/pasta2/
+- cp renato3.txt ~/renato.labso.meutrabalho/pasta2/
+
+6. A partir de sua pasta original(item 0), usando o comando find do linux, 
+diga quantos diretórios existem cujo nome começa com "pasta"? 
+
+Resposta1 (comando linux usado): 
+
+- find ./renato.labso.meutrabalho/ -name pasta* 
+
+Resposta2 (numero de diretórios encontrados) :
+
+- 3 diretórios
+
+7.listar o conteúdo de seu diretório e direcionar a saída para o primeiro arquivo do item 4
+
+- ls >renato1.txt
+
+8.Mostre o conteudo do arquivo ultimocomando.txt e siga as instruções dele
+
+- nano ultimocomando.txt
+
+
+

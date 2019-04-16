@@ -1,0 +1,11 @@
+acess.log
+mkdir
+pasta1
+pasta2
+pasta3
+README.md
+renato1.txt
+renato2.txt
+renato3.txt
+trabalho1.2019
+ultimocomando.txt
